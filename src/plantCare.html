@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marc Roma - PlantCare</title>
+    <link rel="stylesheet" href="../src/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* FONT IMPORTS */
+      @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+      @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Apply the animation to all elements */
+    * {
+      animation: fadeIn 1s ease-in-out;
+      animation-fill-mode: backwards;
+    }
+
+    /* Stagger the animation start times */
+    *:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    *:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+
+    *:nth-child(3) {
+      animation-delay: 0.5s;
+    }
+    </style>
+  </head>
+  <body class="mt-[16px] ml-[19px] mr-[30px] font-inter">
+    <!-- NAVBAR -->
+    <img src="../src/img/logoPersonal.svg" alt="logoPersonal" class="max-h-8 mb-4">
+
+    <div class="menu flex flex-row gap-10 text-xs font-glory">
+      <a href="index.html" class="menu__link">
+           
+        <span class="font-glory block">01 </span> <span class="font-inter font-bold"> ABOUT ME</span>
+        
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+          <path d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4"/>
+        </svg>
+      </a>
+  
+      <a href="projects.html" class="menu__link">
+         
+        <span class="font-glory block">02 </span> <span class="font-inter font-bold"> PROJECTS</span>
+        
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+          <path d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4"/>
+        </svg>
+      </a>
+  
+      <a href="contact.html" class="menu__link">
+         
+        <span class="font-glory block">03 </span> <span class="font-inter font-bold"> CONTACT</span>
+        
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+          <path d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4"/>
+        </svg>
+      </a>
+  
+      <a href="licensing.html" class="menu__link">
+         
+        <span class="font-glory block">04 </span> <span class="font-inter font-bold"> LICENSING</span>
+        
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+          <path d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4"/>
+        </svg>
+      </a>
+    </div>
+    <!--  -->
+
+    <!-- TITTLE -->
+    <div class="font-inter font-bold text-5xl mt-[30px]">
+      <span class="font-extralight text-[10px]"
+        ><a href="index.html">ABOUT ME</a> /
+        <a href="projects.html">PROJECTS</a> /
+        <a href="scribbble.html">SCRIBBBLE</a></span
+      >
+      <br />
+      Scribbble
+
+      <ul
+        class="font-extralight inline-block absolute mt-8 right-5 list-disc text-[10px] md:text-[12px]"
+      >
+        <li class="inline-block">php</li>
+        <li class="inline-block">· html</li>
+        <li class="inline-block">· bootstrap</li>
+      </ul>
+    </div>
+    <!--  -->
+
+    <!-- PROJECT DESCRIPTION -->
+    <div class="mt-5 text-xs w-80 md:w-[600px]">
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Lectus rhoncus varius feugiat
+        lorem nisi ut etiam. Felis pellentesque sed tincidunt orci lacus. Ac
+        nulla interdum non diam mollis elit massa id. Vel penatibus egestas
+        volutpat vitae ultrices id nisi.
+      </p>
+    </div>
+    <!--  -->
+
+    <!-- PROJECT IMAGES -->
+    <div class="mt-5">
+      <div class="md:flex md:flex-wrap lg:space-x-[50px]">
+        <div class="w-full md:w-[650px] md:h-[450px]">
+          <img
+            class="md:h-[450px]"
+            src="../src/img/opt/PlantCareThumbnail.webp"
+            alt="project-image"
+          />
+        </div>
+
+        <div class="grid grid-cols-2 gap-[25px] mt-[25px] lg:mt-0">
+          <div class="sm:w-[300px] sm:h-[200px]">
+            <img src="../src/img/opt/PlantCareThumbnail.webp" alt="project-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- PROJECT VISION & GOALS -->
+
+    <!-- PROJECT DESCRIPTION -->
+    <div
+      class="mt-5 text-xs w-80 md:flex md:space-x-[200px] md:w-[900px] md:mt-14"
+    >
+      <div>
+        <h1 class="font-bold text-2xl">Project Vision</h1>
+
+        <p class="mt-1">
+          Lorem ipsum dolor sit amet consectetur. Lectus rhoncus varius feugiat
+          lorem nisi ut etiam. Felis pellentesque sed tincidunt orci lacus. Ac
+          nulla interdum non diam mollis elit massa id. Vel penatibus egestas
+          volutpat vitae ultrices id nisi.
+        </p>
+      </div>
+
+      <div>
+        <h1 class="font-bold text-2xl mt-5 md:mt-0">Project Goals</h1>
+
+        <p class="mt-1">
+          Lorem ipsum dolor sit amet consectetur. Lectus rhoncus varius feugiat
+          lorem nisi ut etiam. Felis pellentesque sed tincidunt orci lacus. Ac
+          nulla interdum non diam mollis elit massa id. Vel penatibus egestas
+          volutpat vitae ultrices id nisi.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <!--  -->
+
+    <!-- FOOTER -->
+    <div class="mt-[50px] flex flex-row justify-between">
+      <div class="text-xs font-inter">
+        <p class="text-lg font-glory font-semibold">Links</p>
+        <a href="index.html">
+          <div>
+            <p class="font-inter font-light">About Me</p>
+          </div>
+        </a>
+
+        <a href="projects.html">
+          <div>
+            <p class="font-inter font-light">Projects</p>
+          </div>
+        </a>
+
+        <a href="contact.html">
+          <div>
+            <p class="font-inter font-light">Contact</p>
+          </div>
+        </a>
+
+        <a href="contact.html">
+          <div>
+            <p class="font-inter font-light">Licensing</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="text-xs font-inter font-light">
+        <p class="text-lg font-glory font-semibold">Conditions</p>
+        <p>© 2024 Marc Roma</p>
+        <p>Designed & Developed by Marc Roma.</p>
+        <p>All rights reserved.</p>
+      </div>
+      <!--  -->
+  </body>
+</html>

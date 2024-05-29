@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marc Roma - Contact</title>
+  <link rel="stylesheet" href="../src/styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* FONT IMPORTS */
+    @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+    .square {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .square:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Apply the animation to all elements */
+    * {
+      animation: fadeIn 1s ease-in-out;
+      animation-fill-mode: backwards;
+    }
+
+    /* Stagger the animation start times */
+    *:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    *:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+
+    *:nth-child(3) {
+      animation-delay: 0.5s;
+    }
+  </style>
+</head>
+
+<body class="mt-[16px] ml-[19px] mr-[30px] font-inter">
+  <!-- NAVBAR -->
+  <img src="../src/img/logoPersonal.svg" alt="logoPersonal" class="max-h-8 mb-4">
+
+  <div class="menu flex flex-row gap-10 text-xs font-glory">
+    <a href="index.html" class="menu__link">
+
+      <span class="font-glory block">01 </span> <span class="font-inter font-bold"> ABOUT ME</span>
+
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+        <path
+          d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+      </svg>
+    </a>
+
+    <a href="projects.html" class="menu__link">
+
+      <span class="font-glory block">02 </span> <span class="font-inter font-bold"> PROJECTS</span>
+
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+        <path
+          d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+      </svg>
+    </a>
+
+    <a href="contact.html" class="menu__link">
+
+      <span class="font-glory block">03 </span> <span class="font-inter font-bold"> CONTACT</span>
+
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+        <path
+          d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+      </svg>
+    </a>
+
+    <a href="licensing.html" class="menu__link">
+
+      <span class="font-glory block">04 </span> <span class="font-inter font-bold"> LICENSING</span>
+
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 152.9 43.4" style="enable-background:new 0 0 152.9 43.4;" xml:space="preserve">
+        <path
+          d="M151.9,13.6c0,0,3.3-9.5-85-8.3c-97,1.3-58.3,29-58.3,29s9.7,8.1,69.7,8.1c68.3,0,69.3-23.1,69.3-23.1 s1.7-10.5-14.7-18.4" />
+      </svg>
+    </a>
+  </div>
+  <!--  -->
+
+  <div class="md:flex md:flex-row md:justify-center md:gap-[100px]">
+    <div class="mt-[100px] md:mt-[300px]">
+      <h1 class="text-right text-3xl font-inter font-bold italic">
+        i <span class="font-glory font-normal">design</span> &
+        <span class="font-jetbrains">build</span> websites <br />
+        so you don't have to.
+      </h1>
+
+      <!-- BUTTON -->
+      <div class="flex justify-end mt-4">
+        <button href="" class="bg-black p-1 px-12 rounded-md justify-end font-inter">
+          <span class="text-white font-bold text-xs">Say Hello!</span>
+        </button>
+      </div>
+      <!--  -->
+
+      <!-- SOCIALS -->
+      <div class="flex justify-end text-right text-[10px] mt-5">
+        <div>
+          <span class="font-inter font-light">business inquires</span> <br />
+          <span class="font-thin italic">marc.roma@cirvianum.cat</span>
+        </div>
+
+        <!-- VERTICAL LINE -->
+        <div class="border border-l-black mx-4"></div>
+        <!--  -->
+
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="flex gap-[25px]">
+          <div class="max-w-[25px] square">
+            <img src="../src/img/opt/TwitterX.webp" alt="twitterIcon" class="square" />
+          </div>
+          <div class="max-w-[25px] square">
+            <img src="../src/img/opt/LinkedIn.webp" alt="linkedinIcon" />
+          </div>
+          <div class="max-w-[25px] square">
+            <img src="../src/img/opt/Behance.webp" alt="behanceIcon" />
+          </div>
+          <div class="max-w-[25px] square">
+            <img src="../src/img/opt/Dribbble.webp" alt="dribbbleIcon" />
+          </div>
+        </div>
+        <!--  -->
+      </div>
+      <!--  -->
+    </div>
+
+    <!-- MOODBOARD -->
+    <div class="mt-14">
+      <div class="flex mt-13 justify-center items-center">
+        <span class="font-glory text-base">my moodboard</span>
+      </div>
+      <!--  -->
+
+      <!-- IMAGE SQUARES -->
+      <div class="grid grid-cols-3 gap-[25px] mt-5">
+        <div class="bg-black min-h-[100px] min-w-[100px] rounded-tl-md md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+        <div class="bg-black min-h-[100px] min-w-[100px] md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+        <div class="bg-black min-h-[100px] min-w-[100px] rounded-tr-md md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+
+        <div class="bg-black min-h-[100px] min-w-[100px] md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+        <div class="bg-black min-h-[100px] min-w-[100px] md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+        <div class="bg-black min-h-[100px] min-w-[100px] md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+
+        <div class="bg-black min-h-[100px] min-w-[100px] rounded-bl-md md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+        <div class="bg-black min-h-[100px] min-w-[100px] md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+        <div class="bg-black min-h-[100px] min-w-[100px] rounded-br-md md:min-h-[150px] md:min-w-[150px]">
+          a
+        </div>
+      </div>
+      <!--  -->
+    </div>
+
+    <!--  -->
+  </div>
+  <!--  -->
+
+  <!-- FOOTER -->
+  <div class="mt-[50px] flex flex-row justify-between">
+    <div class="text-xs font-inter">
+      <p class="text-lg font-glory font-semibold">Links</p>
+      <a href="index.html">
+        <div>
+          <p class="font-inter font-light">About Me</p>
+        </div>
+      </a>
+
+      <a href="projects.html">
+        <div>
+          <p class="font-inter font-light">Projects</p>
+        </div>
+      </a>
+
+      <a href="contact.html">
+        <div>
+          <p class="font-inter font-light">Contact</p>
+        </div>
+      </a>
+
+      <a href="contact.html">
+        <div>
+          <p class="font-inter font-light">Licensing</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="text-xs font-inter font-light">
+      <p class="text-lg font-glory font-semibold">Conditions</p>
+      <p>© 2024 Marc Roma</p>
+      <p>Designed & Developed by Marc Roma.</p>
+      <p>All rights reserved.</p>
+    </div>
+    <!--  -->
+</body>
+
+</html>
