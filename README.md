@@ -3,6 +3,8 @@ https://projecte-final-m6-m9.netlify.app/
 
 # Enllaç User Tests (Usability Tests)
 https://www.notion.so/Usability-Tests-7c59f2179866467a92830f35f709a277?pvs=4
+o
+https://luxuriant-pleasure-4fe.notion.site/Usability-Tests-7c59f2179866467a92830f35f709a277?pvs=4
 
 # Enllaç Vídeo Presentació
 https://youtu.be/j2Ot20drq10
