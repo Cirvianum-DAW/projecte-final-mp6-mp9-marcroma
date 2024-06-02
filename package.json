@@ -29,8 +29,5 @@
     "imagemin": "^9.0.0",
     "imagemin-avif": "^0.1.6",
     "imagemin-webp": "^8.0.0"
-  },
-  "staticFiles": {
-    "staticPath": "public"
   }
 }
